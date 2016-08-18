@@ -70,4 +70,11 @@ nav{
 footer {
 	text-align: center;
 	text-decoration: bold;
+	margin-right: 200px;
+}
+
+#facebook {
+	width: 50px;
+	margin: 0 auto;
+	margin-right: 525px;
 }
