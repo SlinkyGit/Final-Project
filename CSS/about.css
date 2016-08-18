@@ -1,0 +1,29 @@
+body{
+	background-color: lightgrey;
+}
+
+#banner {
+	width: 960px;
+	margin: 0 auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+p {
+	width: 960px;
+	margin: 0 auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#googleMaps {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul {
+	word-spacing: 1px;
+	margin: 0 auto;
+	width: 1000px;
+	list-style-type: none;
+}

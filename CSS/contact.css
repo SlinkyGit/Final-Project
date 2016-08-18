@@ -1,0 +1,18 @@
+body {
+	background-color: lightgrey;
+}
+
+#contactUs {
+	width: 960px;
+	margin: 0 auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+p {
+	width: 960px;
+	margin: 0 auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 15px;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>About Abacus Pharmacy</title>
+			<link rel="stylesheet" type="text/css" href="CSS/about.css">
+			<script src="http://maps.googleapis.com/maps/api/js"></script>
+			
+		</head>
+			<body>
+				<div id="banner">
+					<h1>About Abacus Pharmacy</h1>
+					<h5><em>Why don't you get to know us a little?</em></h5>
+				</div>
+
+				<ul>
+					<li><strong>Address:</strong></li>
+					<li>168 2nd Ave, New York, NY 10003</li>
+				</ul>
+
+				<br>
+
+				<p>Abacus Pharmacy is an indepedently owned pharmacy that is located on 2nd Avenue in New York City. It has been around for the past 5 years and has been helping its patients ever since! Our sister pharmacy, is <strong>Ansonia Pharmacy</strong> which is located on the Avenue of the Americas (<em><a href="https://www.google.com/maps/dir/''/ansonia+pharmacy/data=!4m5!4m4!1m0!1m2!1m1!1s0x89c25996f77e7f53:0x7c4e504bb8b564fa?sa=X&ved=0ahUKEwjr5_2t6MjOAhXGWx4KHSgQBg4Q9RcIeDAL">442 Ave of the Americas, New York, NY 10011</a></em>). </p>
+				<br>
+				<p>If you are a customer, then please write a positive review for us on our <a href="https://www.yelp.com/biz/abacus-pharmacy-new-york">Yelp Page</a>
+				.</p>
+
+				<br>
+
+			<script>
+				function initialize() {
+				  var mapProp = {
+				    center:new google.maps.LatLng(40.730081,-73.986256),
+				    zoom:65,
+				    mapTypeId:google.maps.MapTypeId.ROADMAP
+				  };
+				  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+				}
+				google.maps.event.addDomListener(window, 'load', initialize);
+			</script>
+			<div id="googleMap" style="width:500px;height:380px;margin-left:auto;margin-right:auto"></div>
+			</body>
+	</html>
