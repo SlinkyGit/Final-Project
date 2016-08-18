@@ -1,8 +1,6 @@
 $(document).ready(function(){
-	$( function() {
+ $( function() {
     $( "#dialog" ).dialog();
-	});
-
-
+  } );
 });
 
